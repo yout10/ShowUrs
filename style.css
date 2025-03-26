@@ -1,0 +1,69 @@
+body {
+            margin: 0;
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+        .logo {
+            font-size: 30px;
+        }
+        .nav-links {
+            display: flex;
+            gap: 20px;
+            list-style: none;
+        }
+        .nav-links a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+        }
+        .contact-btn {
+            padding: 10px 20px;
+            border: 2px solid blue;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .contact-btn:hover {
+            background-color: blue;
+        }
+        .container{
+            width: 300px;
+            height: auto;
+        }
+        .first{
+            display: flex;
+            justify-content: space-between;
+            margin: 50px;
+        }
+        img{
+            width: 600px;
+            height: 300px;
+            border-radius: 20px;
+        }
+        .ShowUrs{
+            font-size: 50px;
+        }
+        .para1{
+            font-size: 20px;
+        }
+
+/* mid-section */
+
+.main{
+    display: flex;
+}
+.mid-section{
+    display: flex;
+}
+.card{
+    border: none;
+    margin: 20px;
+}
